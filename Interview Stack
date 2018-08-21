@@ -1,0 +1,483 @@
+1.If you want a class not to override all the methods of the implemented interface then make it as abstract.
+
+2.If an Interface is extending another interface then it should not have any method implementation from parent interface.
+
+3.Rules for method overriding
+
+• Overridden method and argument list shall exactly be the same  
+
+   • Return type shall be the subtype that is being declared in original method that is overridden in superclass, or it shall be the same.
+
+   • Restriction is not more in case of access level as compared to access level of the overridden method. E.g, when superclass is considerd to be public, in that case overriding method present in the subclass would not be public or private. But access level might not be much restrictive in comparison with access level of overridden method.
+
+   • If instance methods are inherited, by subclass, in that case only they might be overridden.
+
+   • Method which has been declared final might not get overridden.
+
+   • Method which has been declared static might be redeclared or not overridden
+
+   • Methods are not overridden if they are not inherited.
+
+   • Sublcass present in similar kind of package as that of instance superclass might be overridden to any method of superclass that has not been declared final or private.
+
+   • Subclass present in some other different package might override those methods which are declared protected or private.
+
+   • It is not possible to override constructors.
+
+4.How HashMap works in Java
+
+5.How to traverse HashMap
+
+6.Equals and hashCode contract in Java,impact in Hashmap
+
+7. Comparator vs Comparable in Java
+
+8.return statement in try,catch and finally
+
+9.ClassNotFound vs NoClassDefFound
+
+10.Static block is executed first even before constructor.
+
+11.Features in JDK1.5,1.6,1.7
+
+12.If any variable is returned from a method that must be initialized.
+
+13.Cannot assign null to any primitive.
+
+14. Difference between foreach loop and an Iterator
+
+15. To get original hashcode after overriding:  int originalHashCode = System.identityHashCode(emp1);
+
+16. String vs StringBuffer vs StringBuilder
+
+17.Immutable class:One particular area where immutability makes an especially big difference is concurrency: immutable objects can safely be shared among multiple threads, whereas mutable objects must be made thread-safe via careful design and implementation - usually this is far from a trivial task.
+
+18. Methods in Object class.
+
+19. Choose ArrayList over a LinkedList when you need fast iteration i.e random access.
+
+20. Go for Linked List when you need fast insertion and deletion....http://snehaprashant.blogspot.in/2008/10/quick-review-of-collections-in-java.html
+
+21. How Garbage Collection works in Java:1) All references of that object explicitly set to null e.g. object = null
+
+2) Object is created inside a block and reference goes out scope once control exit that block.
+3) Parent object set to null, if an object holds reference of another object and when you set container object's reference null, child or contained object automatically becomes eligible for garbage collection.
+
+Read more: http://javarevisited.blogspot.com/2011/04/garbage-collection-in-java.html#ixzz2bwhsReS3
+
+22. Custom Exception Handling
+
+23. How to Iterate Over a Map in Java
+
+24.Use of getters and setters:a)
+
+You can have only a getter. Then the property is read only. This should actualy be the most common case.A getter can compute a value from several fields rather than return one field.setter can have a validation for the field
+
+25. Abstract class can have constructor
+
+26. LinkedList implementation
+
+27. Difference between ConcurrentHashMap and Hashtable
+
+28. ConcurrentHashMap do not allow null keys or null values while HashMap allows null keys.
+
+29. StringBuffer is synchronized while StringBuilder is not which makes StringBuilder faster than StringBuffer
+
+30. What is the difference between Serializable and Externalizable interface in Java?
+
+31. Try-with-resource in Java 7
+
+32 .Why we cant declare broader exception in overriding method:http://nirmaljatania.wordpress.com/2010/05/15/rule-for-exception-handling-while-overriding-methods/#comment-29
+
+33. How to override hashcode
+
+34. Why local variables are required to be initialized
+
+35.When static variables,blocks are initialized
+
+36. FileInputStream vs FileReader
+
+37. Why wait and notify is declared in Object class instead of Thread?
+
+38. Does Java pass by reference or pass by value?http://stackoverflow.com/questions/40480/is-java-pass-by-reference
+
+39. Difference between JRE JVM and JDK in Java
+
+40. Serialization UID
+
+41. Why there are two Date classes; one in java.util package and another in java.sql?
+
+42. When do you override hashCode() and equals()?
+
+43. How finalize  method works?
+
+44. Volatile keyworrd
+
+45. when set.add returns false?
+
+46. why hashmap key cant be mutable?
+
+47. What happens when duplicate keys added in hashmap?
+
+48. What do you understand by iterator fail-fast property?
+
+49. What is difference between fail-fast and fail-safe?
+
+50. What is menifest file used for?
+
+51. user defined unchecked exception(runtime exception)
+
+52. Class loading and initialization in JVM:  http://javarevisited.blogspot.sg/2012/07/when-class-loading-initialization-java-example.html
+
+53. Why use Singleton instead of Static ?
+
+54. Double checked locking(Synchronized) Singleton
+
+55. Mockito
+
+56. OutOfMemory exception
+
+57. Why String is immutable and final : http://javarevisited.blogspot.in/2010/10/why-string-is-immutable-in-java.html
+
+58. Design Patterns: http://oodesign.com/
+
+59. Can a method be static and synchronized?  A static method can be synchronized. If you do so, the JVM will obtain a lock on the java.lang.Class 	                instance associated with the object. It is similar to saying:synchronized(XYZ.class) {}
+
+60. Why this cant be written inside a method?
+
+61. can we clone a Singleton object?
+
+62. Can a Singleton class be extended?
+
+63. Decorator design pattern is used in IO
+
+64. What is the difference between creating String as new() and literal?
+
+65. String.intern() used for?
+
+66. Deep cloning vs Shallow cloning
+
+67. Mutable object in Immutable class
+
+68. Serialization Id
+
+69. Thread pool
+
+70. How Generics wors :   http://javarevisited.blogspot.in/2011/09/generics-java-example-tutorial.html
+
+71. A constructor CAN throw any exception. But if any subclass constructor calls a super class constructor which throws an exception, then the subclass constructor must either catch the exception or throw it.
+
+72. WeakHashMap
+
+73. What is the benefit of serialization over file I/O
+
+74. http://javaconceptoftheday.com/15-simple-but-confusing-java-interview-questions/
+
+75. Constructor throwing exception
+
+76. start and run method both defined in thread
+
+77. We need LinkedHashMap if u sort  the map according to the value and keep them in ordered manner
+
+78. static synchronised vs non static synchronised method 
+
+79. How LinkedHashMap works internally .
+
+80. HashMap changes done in java 8
+
+81. IdentityHashMap
+
+82. if exception thrown from constructor
+
+ then this.element how works
+
+83. callable in thread
+
+84. synchronized method vs synchronized block 
+
+with this object and a class variable
+
+85. mutable object inside immutable 
+
+86. timed and polled lock
+
+87.sort a HashMap according to value
+
+88. In Java class members are accessed according the type of the reference and not the type of the actual object.
+
+89. make integers threadsafe using AtomicInteger
+
+90. memory leak in java
+
+91. A single thread can’t create deadlock with itself as per java - threads are reentant in nature so lock is occupied per thread not per call.
+
+92. where the object is created while typecasting a primitive type
+
+93. removing 0th element inside for loop while iterating a List
+ 
+94. 3 threads to print 1,2,3 respectively in exact same sequence and should be repeated for n times: 1,2,3,1,2,3,1,2,3,1,2,3...
+
+95. How to break fairness property in re-entrant lock
+
+96. How to design a re-entrant lock using wait and notify.
+
+
+
+
+Algorithm 
+
+1. kth smallest element in array
+
+2. 1st duplicate element in array
+
+3. longest substring in array
+
+4. prime number 
+
+5. find out the elements whose summation is 10 in array 
+
+6. longest palindrome 
+
+7. spiral matrix 
+
+8. maximum sum in an array
+
+9. GCD of 2 numbers
+
+10. edit distance by dynamic programming 
+
+11. shortest path by dynamic programming
+
+12. egg dropping by dynamic programming 
+
+13. longest palindromic subsequence by dynamic programming 
+
+14. print positive and negative integers in alternate sequence 
+
+15. 3 threads to print 1,2,3 respectively in exact same sequence and should be repeated for n times: 1,2,3,1,2,3,1,2,3,1,2,3
+
+16. Frequenct of all the elements in an array
+
+17. Get the longest word from a dictionary(defined as an array of words). 
+    Example:dictionary is[dog,soft,kid,data,ware,goddess,struct,ure]
+            input:[soft,ware] -> output-> "software"
+            input:[dess,dog]-> output-> "goddess"
+            input:[struct,reu,atda]-> output-> "datastructure"    
+            
+18. define a stack in which a method is defined which ll find the smallest element at any point with O(1) space and time complexity
+
+19. define a data structure to store flight information(arr,dest,cost,time) and find cheapest/shortest time connecting flight.
+
+20. In a set of projects, some projects are having multiple dependency and some are not.
+    The projects having minimum dependency should get built first.
+    define a datastructure to store and sort the projects.
+
+
+
+Design:
+1. multistoried Parking lot
+2. Lift
+3. Ladder and snake
+4. Connection pool
+5. define a data structure and design for auto complete of words
+6. Cache
+
+Spring: 
+
+1.Depends-on tag
+
+2. IOC Vs Dependency Injection
+
+3.  diffrences between Spring and Struts
+
+1. Struts is a web framework only, Struts can be compare with the SpringMVC. And SpringMVC is subset of the Spring framework. So we can say that Sturts can be seen as the subset of the spring framework in functionality point of view.
+2. What Action class do in struts, Controller does in Spring. And action in Struts is a Abstract class but Controller in Spring is an interface, This is very good advantage of the spring.
+3. Spring don�t have any action from, it bind the http form values directly into pojo. Instead of initializing the form bean spring directly initialize the domain object.
+4. ActionForward in struts is replace with the ModelAndView in Spring. Model component contain the business object to be displayed via view component.
+5. Unlike Struts Spring don�t provide any separate tag library.
+
+
+4.Spring Application supports event publishing : http://learningviacode.blogspot.in/2012/07/spring-and-events-and-listeners.html
+
+5. Spring filter
+
+6.Setter injection Vs Constructor Injection:
+
+Partial dependency: can be injected using setter injection but it is not possible by constructor. Suppose there are 3 properties in a class, having 3 arg constructor and setters methods. In such case, if you want to pass information for only one property, it is possible by setter method only.
+
+Overriding: Setter injection overrides the constructor injection. If we use both constructor and setter injection, IOC container will use the setter injection. 
+
+Changes: We can easily change the value by setter injection. It doesn't create a new bean instance always like constructor. So setter injection is flexible than constructor injection
+
+7. Autowiring Beans:
+
+8.Resource res = new ClassPathResource("spconfig.xml");
+
+        BeanFactory factory = new XmlBeanFactory(res);
+
+9. Spring Exception Handling:  <bean class="org.springframework.web.servlet.handler.
+
+SimpleMappingExceptionResolver"> <property name="exceptionMappings"> <props> <prop key="com.tutorialspoint.SpringException"> ExceptionPage </prop> </props> </property> <property name="defaultErrorView" value="error"/> </bean> 
+
+10.protected Object formBackingObject(HttpServletRequest request)
+
+11. Data Referencing:      http://thecafetechno.com/tutorials/spring/use-of-simpleformcontroller-spring-mvc/
+
+12. The HandlerInterceptor is similar to filters in servlet 2.3 
+
+13. HandlerMapping returns a HandlerExecutionChain. The DispatcherServlet executes the HandlerInterceptors described in the returned HandlerExecutionChain.
+
+14. In BeanNameUrlMapping, if we want to map multiple url to same bean that time multiple beans is required to be created. In SimpleUrlHandlerMapping it can be done using the property named 'urlMap:
+
+<bean id="urlHandler" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping"> <property name="urlMap"> <map> <entry key="/hello.htm" value-ref="helloController"/> <entry key="/sayHello*" value-ref="helloController"/> <entry key="/welcome.html" value-ref="helloController"/> <entry key="/welcomeUser*" value-ref="helloController"/> </map> </property>  
+
+</bean>
+
+15. BeanFactory vs ApplicationContext
+
+16. Lifecycle of bean
+
+17. Spring MVC with Hashmap:http://viralpatel.net/blogs/spring-mvc-hashmap-form-example/
+
+18. Different form controllers
+
+19. Different handler Mapping
+
+20. Different Scopes 
+
+21. @initBinder and @sessionAttribute
+
+22. Validator Framework in Spring
+
+23. ApplicationContext.xml is parent of all spring-servlet.xml.
+
+       Its used as shared between all servlets in an application.
+
+24. If ApplicationContext is refreshed 
+
+
+
+Hibernate:
+
+1. Lazy loading and eager loading
+
+2. Hibernate Lifecycle
+
+3. One-to-many
+
+4. Many-to-many
+
+5. Disadvantage of hibernate
+
+6. Hibernate cache,2nd level cache
+
+7. Hibernate transaction
+
+8. Criteria
+
+9. cascade
+
+10. @GeneratedValue(strategy = GenerationType.AUTO)
+
+11. Lazy loading for single entity: //Get only the reference of EmployeeEntity for now
+
+EmployeeEntity empGet =        (EmployeeEntity)session.byId(EmployeeEntity.class).getReference(1);
+
+12. Dirty Checking
+
+13. Hibernate Connection Pool: 
+
+	<!-- Use the C3P0 connection pool. -->  
+
+        <property name="c3p0.min_size">3</property>  
+
+        <property name="c3p0.max_size">5</property>  
+
+        <property name="c3p0.timeout">1800</property> 
+
+14. Hibernate N+1 problem
+
+15. Generator classes 
+
+16. Inverse
+
+17. Orphane removal
+
+18. How to handle 1lakhs of requests in hibernate
+
+19.   Why hibernate need native query...for listagg() , wm_concat ()
+
+20.   LazyInitialization exception 
+
+21. Hibernate Pagination
+
+
+Servlet & JSP:
+
+1. Application server vs web server
+
+2. Life cycle of servlet and JSP
+
+3. Implicit objects
+
+4. how to handle more than 1lakhs requests through servlet
+
+5. Servlets are thread safe or not
+
+
+Struts:
+
+1. Struts exception handling:: http://jaiswaltraining.com/struts/ch6.php
+
+	http://struts.apache.org/release/2.2.x/docs/exception-handling.html
+
+2. Top 10 Struts Interview Question And Answer - J2EE
+
+ 
+
+ 
+
+￼
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Top 10 Struts Interview Question And Answer - J2EE
+
+Jakarta Struts Framework is one of leading web development framework in Java world. This Struts interview questions are picked from actual interviews in various c...
+
+View on javarevisited.blogspot.in
+
+Preview by Yahoo
+
+ 
+
+ 
+
+
+Maven:
+
+1.  Difference between maven scope compile and provided for JAR packaging
+
+2. How to create war usinig maven
+
+3. How to use an existing project as dependency 
+
+ 
+
+Thanks and Regards,
+Gaurav Das
+
+Mob: 8088198421
+
+
+
+Sent with AquaMail for Android
+http://www.aqua-mail.com
