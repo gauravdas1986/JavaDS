@@ -193,9 +193,7 @@ You can have only a getter. Then the property is read only. This should actualy 
 
 83. callable in thread
 
-84. synchronized method vs synchronized block 
-
-with this object and a class variable
+84. synchronized method vs synchronized block with this object and a class variable
 
 85. mutable object inside immutable 
 
@@ -221,6 +219,7 @@ with this object and a class variable
 
 96. How to design a re-entrant lock using wait and notify.
 
+97. thread lock for static method
 
 
 
@@ -354,6 +353,8 @@ SimpleMappingExceptionResolver"> <property name="exceptionMappings"> <props> <pr
        Its used as shared between all servlets in an application.
 
 24. If ApplicationContext is refreshed 
+
+25. ApplicationContext vs Spring-servlet.xml
 
 
 
