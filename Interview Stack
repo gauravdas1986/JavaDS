@@ -280,6 +280,8 @@ Design:
 4. Connection pool
 5. define a data structure and design for auto complete of words
 6. Cache
+7. Consistance Hashing
+8. Logger
 
 Spring: 
 
