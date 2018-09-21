@@ -221,6 +221,11 @@ You can have only a getter. Then the property is read only. This should actualy 
 
 97. thread lock for static method
 
+98. Local method variables are always thread-safe as every thread has their own stack for method variables.
+
+99. Thread locks are re-entrant, means if one thread aquirs lock on an object and 
+    again try to get the same lock before releasing the same, it gets it successfully
+
 
 
 Algorithm 
