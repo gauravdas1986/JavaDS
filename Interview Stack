@@ -232,6 +232,8 @@ You can have only a getter. Then the property is read only. This should actualy 
 
 102. Singleton uses class level or object level synchronization
 
+103. Enum is threadsafe or not
+
 
 Algorithm 
 
