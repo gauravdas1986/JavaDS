@@ -199,7 +199,7 @@ You can have only a getter. Then the property is read only. This should actualy 
 
 86. timed and polled lock
 
-87.sort a HashMap according to value
+87. sort a HashMap according to value
 
 88. In Java class members are accessed according the type of the reference and not the type of the actual object.
 
@@ -227,6 +227,10 @@ You can have only a getter. Then the property is read only. This should actualy 
     again try to get the same lock before releasing the same, it gets it successfully
 
 100. you can not use synchronized keyword with constructor. It is illegal and result in compilation error.
+
+101. Class level lock vs Object level lock
+
+102. Singleton uses class level or object level synchronization
 
 
 Algorithm 
