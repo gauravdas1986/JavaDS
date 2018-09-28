@@ -226,6 +226,7 @@ You can have only a getter. Then the property is read only. This should actualy 
 99. Thread locks are re-entrant, means if one thread aquirs lock on an object and 
     again try to get the same lock before releasing the same, it gets it successfully
 
+100. you can not use synchronized keyword with constructor. It is illegal and result in compilation error.
 
 
 Algorithm 
