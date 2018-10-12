@@ -234,6 +234,8 @@ You can have only a getter. Then the property is read only. This should actualy 
 
 103. Enum is threadsafe or not
 
+102. Local variables cannot be declared as static.
+
 
 Algorithm 
 
