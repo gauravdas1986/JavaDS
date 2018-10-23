@@ -1,0 +1,128 @@
+Java 8
+•	Version of Java
+•	Java 8 features
+•	How do rate 1-10 in Java
+•	Immutable Object what is the understanding
+•	What is the reason for String to be Final class
+•	How do you make the date immutable
+•	Difference between final class vs final properties
+•	What sort of collections you have used in Java
+•	Have u used concurrent Hashmap
+•	Hashtable vs concurrent Hashmap why can't we use Hashtable
+•	In terms of memory how do rate LinkedList…is it memory efficient or not
+•	Any experience in Multi-Threading
+•	Asynchronous multi-threading
+•	Thread Pooling 
+•	Heap vs stack memory
+•	Can you explain Stream API
+•	What exactly is parallel Stream
+•	What are the functions does stream provide
+•	What is the use of Reduce and what is difference between filter and reduce
+•	What is method reference
+•	Can u use method reference for a static method or class…what about constructor
+•	What is Atomic operation in Java
+•	AOP explain, where it is used and why is it used
+•	Static and default function interfaces , why do you need it where do you use it
+•	What is the difference between Interface and Abstract class
+ 
+Spring Boot / Micro services
+•	What is the use of Component Scan 
+•	Can you explain micro services architecture
+•	How will you do service discovery
+•	How do you handle fault tolerance
+•	How many different applications do you have in your micro services
+•	How do you deploy these services
+•	What are you using to deploy
+•	Which version of Spring Boot you are using (1.x or 2)
+•	What are the things spring boot annotation take care of 
+ 
+Transactions & DB
+•	Spring Transactions usage
+•	Hibernate who is going to start the transactions is it Spring 
+o	Which layer will you put the transactions in service layer, DAO layer??
+•	What is Service Layer going to be used for
+•	Consider a simple service layer with operations like persistence, update in this entire flow how many transactions will you start
+•	Hibernate Query API's
+o	Criteria API
+o	Named Query API
+•	Hibernate can u run a stored procedure
+•	What is the class to run stored procedure in hibernate
+•	In Oracle you have feature like SQL Hints what is the use of it
+•	Have you used partitions and index in Oracle
+•	How will you Execute Generic native SQL Query in Hibernate 
+•	Any caching capability have been used in Hibernate
+•	Can you explain what is distributed transactions
+•	How do you handle distributed transactions in your application
+•	What is the difference between GET and Load in hibernate
+•	n+1 problem in hibernate
+•	How do you do a cross join
+•	What is volatile and use of it
+•	What is the difference bet volatile and transient
+•	What is searlization
+ 
+ 
+ 
+REST
+•	Spring Restful endpoints how did u expose the endpoints
+•	An Account Resource…
+o	what kind of different API's can you expose…
+o	How will Account # be exposed
+•	Did u use Spring Bean for Rest Controller… how would u check if ID is passed
+•	Path Param vs Request Param 
+•	Where would you annotate above Params
+•	Who is setting false and true value for required for Params
+•	Are these params part of request header or body
+•	Idempotent methods what are they and how does Get and Post work
+•	What is the difference between Get and Post methods for REST…
+•	If I have more parameters should I use Get or Post
+•	What are the frameworks used for REST services (Jersey / Spring)
+•	What is 12-factor methodology
+•	When do you prefer REST vs SOAP
+•	What is the diff bet restcontroller and controller
+•	How to make rest api secured
+ 
+ 
+Angular
+•	In Angular 1 transferred to Angular 2
+•	How is routing logic being handled in angular
+•	How is state being managed
+•	How did u handle async communication…what library did u use
+•	If rest call was made but rest service is not available how was this handled as this is async call…how will u process ur response after you get it
+•	What is the use of $scope
+•	Can I call it as state management object
+•	What different directives have u used in angular
+•	What custom directives have u created
+•	Did u use controller with the directive
+•	How did u secure your front end
+o	HTTPS, Tokens
+•	Where & When are u generating the CSRS token
+•	UI & UX - Responsive web design
+o	What is difference between view port and media query
+o	In Bootstrap which has been incorporated view port or media query
+•	Browser compatibility how did you handle
+•	How will you create a new angular application using CLI, 
+•	How will you start the ng-server
+ 
+Jira
+•	Jira has JQL to retrieve and update data…how would you approach using this query to fetch and get the  resources & project information, what technology will you use and how will you do it… explain it step by step
+ 
+TDD
+•	Give an example of how TDD is implemented 
+•	Do you use any framework for mocking
+•	How is object coming back from Mockito framework
+ 
+ 
+Design Patterns
+•	What are the patterns that are used
+o	Observer, Factory, Singleton
+ 
+Source Control
+•	Source Control Repository what did you use
+•	Did u use any build tools, did use maven anytime
+ 
+Generic
+•	Any questions that you may have for them
+ 
+ 
+ 
+ 
