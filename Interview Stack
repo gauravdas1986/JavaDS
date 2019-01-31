@@ -428,6 +428,8 @@ EmployeeEntity empGet =        (EmployeeEntity)session.byId(EmployeeEntity.class
 
 21. Hibernate Pagination
 
+22. flush may be useful to persist the data in between the ongoing transaction & then finally commit the changes afterwards. So you can also rollback the previous changes if there occurs some problem afterwards, like for batch insert/update.
+
 
 Servlet & JSP:
 
