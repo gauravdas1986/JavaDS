@@ -1,3 +1,16 @@
 1. Hikari Connection pool of Spring boot-jpa is getting overloaded while deployed in PCF.
 2. Spring Boot-jpa save() is not throwing ConstrintViolationException for duplicate key.
 3. Not able to track the query from which the SQLException is thrown in a @Transactional method in Spring Boot-jpa
+4. <dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>${spring-cloud.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+  DependencyManagement in Maven
+  
