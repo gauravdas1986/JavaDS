@@ -13,4 +13,4 @@
 		</dependencies>
 	</dependencyManagement>
   DependencyManagement in Maven
-  
+5. Timeout in Hystrix  
