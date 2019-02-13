@@ -14,3 +14,10 @@
 	</dependencyManagement>
   DependencyManagement in Maven
 5. Timeout in Hystrix  
+6. Single sign on
+7. Track authenticated user in Oauth2 using 
+	Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+	System.out.println("USERNAME:::::::"+(authentication == null ? null : authentication.getName()));
+8. 
+		   
+
