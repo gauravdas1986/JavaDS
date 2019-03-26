@@ -1,0 +1,4 @@
+1. Profiling
+2. multiple datasources in a single microservice
+3. Transaction handling in where multiple microservices are called.
+4. How to trace the erroneous/faulty microservice in chained mircoservices.
