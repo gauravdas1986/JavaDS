@@ -1,3 +1,23 @@
+Milestones:
+1. 12 Factors app
+2. External configuration(config server)
+3. Data Access(Spring-data-jpa)
+4. Actuator
+5. Security
+6. Asynchronous messaging
+7. Testcase
+8. Service Broker
+9. Transaction handling
+10. Deployment
+11. Logging
+12. Manifest
+13. Blue-green deployment
+14. Auto-scaling
+15. Service broker
+16. Service discovery
+17. Fault tolerance
+
+
 1. Profiling
 2. multiple datasources in a single microservice
 3. Transaction handling in where multiple microservices are called in a same transaction.
