@@ -25,3 +25,9 @@ Milestones:
 4. How to trace the erroneous/faulty microservice in chained mircoservices.
 5. Different microservice design patterns(SAGA,aggregator,API Gateway,Asynchronous messaging,Service Discovery)
 6. Server side vs client side load balancing
+7. Composite primary key in JPA
+8. Exception propagation in REST
+9. Exception handling in Spring Boot application
+10. How to send request header through restTemplate
+11. Validation in rest call(while sending wrong value as JSON)
+12. What is an Idempotence and where it is used?
