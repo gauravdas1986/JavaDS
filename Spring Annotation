@@ -1,0 +1,20 @@
+1.  @Configuration
+2.  @Bean
+3.  @Autowire
+4.  @Qualifier
+5.  @ComponentScan and @Component
+6.  @PropertySource
+7.  @EnableWebSecurity
+8.  @ModelAttribute
+9.  @Lazy
+10. @EnableAutoConfiguration
+11. @CrossOrigin
+12. @ExceptionHandler
+13. @InitBinder
+14. @Mappings and @Mapping
+15. @RequestHeader
+16. @ControllerAdvice
+17. @RestControllerAdvice
+18. @SessionAttribute
+19  @EnableConfigServer
+20. @EnableEurekaServer
