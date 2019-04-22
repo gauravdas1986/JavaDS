@@ -27,3 +27,6 @@
 27. @Profile
 28. @Configuration and @ImportResource("classpath:/annotations.xml")
 29. @Valid
+30. @ExceptionHandler(Exception.class)
+31. @EnableResourceServer
+32. @EnableAuthorizationServer
