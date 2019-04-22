@@ -18,3 +18,12 @@
 18. @SessionAttribute
 19  @EnableConfigServer
 20. @EnableEurekaServer
+21. @SpringBootApplication
+22. @EnableBatchProcessing
+23. @EnableScheduling
+24. @EnableCircuitBreaker
+25. @EnableHystrixDashboard
+26. @Required
+27. @Profile
+28. @Configuration and @ImportResource("classpath:/annotations.xml")
+29. @Valid
