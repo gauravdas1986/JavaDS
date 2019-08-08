@@ -33,3 +33,8 @@ Milestones:
 12. What is an Idempotence and where it is used?
 13. Where Do We Use WebMVC Test Annotation?
 14. Host based routing VS Path based routing
+
+
+Infrastructure:
+1. AWS-Kubernetes with HAProxy https://techbeacon.com/devops/one-year-using-kubernetes-production-lessons-learned
+2. Kubernetes idea: https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
