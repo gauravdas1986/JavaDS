@@ -39,3 +39,5 @@ Infrastructure:
 1. AWS-Kubernetes with HAProxy https://techbeacon.com/devops/one-year-using-kubernetes-production-lessons-learned
 2. Kubernetes idea: https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
 3. Difference between AWS ECS and EKS: https://www.missioncloud.com/blog/amazon-ecs-vs-eks-which-service-is-right-for-you/
+4. Run Spring boot application excluding embedded tomcat server, using jetty server
+5. 
