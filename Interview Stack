@@ -236,6 +236,10 @@ You can have only a getter. Then the property is read only. This should actualy 
 
 102. Local variables cannot be declared as static.
 
+104. stream flatmap java 8
+
+105. Nested @Async and @Transactional in Spring JPA
+
 
 Algorithm 
 
@@ -371,6 +375,8 @@ SimpleMappingExceptionResolver"> <property name="exceptionMappings"> <props> <pr
 24. If ApplicationContext is refreshed 
 
 25. ApplicationContext vs Spring-servlet.xml
+
+26. Spring Transactional propagation modes 
 
 
 
