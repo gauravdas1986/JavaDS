@@ -289,6 +289,8 @@ Algorithm
     The projects having minimum dependency should get built first.
     define a datastructure to store and sort the projects.
 
+21. Dynamic Connectivity: https://www.youtube.com/watch?v=X_4Qn7MNp7A&list=PLRdD1c6QbAqJn0606RlOR6T3yUqFWKwmX&index=3
+
 
 
 Design:
