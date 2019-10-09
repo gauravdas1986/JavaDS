@@ -33,7 +33,7 @@ Milestones:
 12. What is an Idempotence and where it is used?
 13. Where Do We Use WebMVC Test Annotation?
 14. Host based routing VS Path based routing
-15. Mapstruct, return a JSON which is a combination of multiple pojos
+15. Mapstruct, return a merged JSON which is a combination of multiple pojos
 
 
 Infrastructure:
