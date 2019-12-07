@@ -1,0 +1,49 @@
+Sample Test Case for Insurance Application Testing
+Sr#	Test Cases for Insurance Application
+1	Validate claims rule
+2	Ensure that claim can occur to the maximum and minimum payment
+3	Verify data is transferred accurately to all sub-systems including accounts and reporting.
+4	Check that the claims can be processed via all channels example web, mobile, calls, etc
+5	Test for 100% coverage and accuracy in calculations determining premium rates
+6	Make sure formula for calculating dividend and paid up values gives correct value
+7	Verify surrender values are calculated as per the policy requirement
+8	Verify fiduciary details and bookkeeping requirements
+9	Test complex scenarios for policy lapse and revivals
+10	Test various conditions for non-forfeiture value
+11	Test scenarios for policy termination
+12	Verify general ledger account behave same as to reconcile with subsidiary ledger
+13	Test calculation of net liability for valuation
+14	Test conditions for extended term insurance
+15	Verify policy for a non-forfeiture option
+16	Check different insurance product term behaves as expected
+17	Verify premium value as per product plan
+18	Test automatic messaging system to inform customer about new products
+19	Validate all the data entered by users as it progresses through the workflow to trigger warnings, compliance, notification and other workflow events
+20	Verify insurance document template supports the document format like MS-Word
+21	Test system for generating invoice automatically and send it to customer through e-mail
+
+Summary
+Timely process of the insurance policy and managing client's data is a foremost priority for any insurance company. Their complete dependency on a software solution for handling claims, as well as customers, requires software solution to be precise and accurate. Considering all the key aspects of insurance company's requirement some of the testing strategy and scenarios are represented in this tutorial.
+
+Check our Live Insurance Testing Project
+
+
+
+
+
+
+modules
+1. insurer profile
+2. medical insurance 
+3. Life insurance
+4. claim processing
+5. Eligibility 
+6. claim settlement third party administration
+7. policy lapse and revival
+
+
+
+terms
+1. sum assured
+2. premium affecting factors
+3. claim settlement
