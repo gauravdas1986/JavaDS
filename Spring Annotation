@@ -30,3 +30,4 @@
 30. @ExceptionHandler(Exception.class)
 31. @EnableResourceServer
 32. @EnableAuthorizationServer
+33. @MapStruct
