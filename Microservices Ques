@@ -43,5 +43,6 @@ Infrastructure:
 4. Run Spring boot application excluding embedded tomcat server, using jetty server
 5. On-premise database with AWS infrastructure
 6. Import/migrate on-premise data to AWS
-7. Throttling based on caller application, user and traffic limit.
+7. Throttling based on caller application, application based users and traffic limit.
+8. Different ways to handle transaction on multiple microservices quering multiple database database
 
