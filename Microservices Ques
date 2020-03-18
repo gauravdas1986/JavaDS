@@ -45,4 +45,10 @@ Infrastructure:
 6. Import/migrate on-premise data to AWS
 7. Throttling based on caller application, application based users and traffic limit.
 8. Different ways to handle transaction on multiple microservices quering multiple database database
+9. Implement auto-scaling and load-balancing in on-premise services
+10. What are the difficulties if we deploy multiple containers in a single POD.
+11. What happens if we deploy a new service into kubernetes with the same name as existing services
+12. Monitoring kubernetes with prometheus
+13. Load balance on-premise services with AWS 
+14. Service deployed in AWS and using on-premise data sources, how to connect 
 
