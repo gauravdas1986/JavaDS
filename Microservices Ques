@@ -41,7 +41,7 @@ Infrastructure:
 2. Kubernetes idea: https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
 3. Difference between AWS ECS and EKS: https://www.missioncloud.com/blog/amazon-ecs-vs-eks-which-service-is-right-for-you/
 4. Run Spring boot application excluding embedded tomcat server, using jetty server
-5. On-premise database with AWS infrastructure
+5. On-premise database with AWS infrastructure, service and routing is hosted on AWS cloud.
 6. Import/migrate on-premise data to AWS
 7. Throttling based on caller application, application based users and traffic limit.
 8. Different ways to handle transaction on multiple microservices quering multiple database database
@@ -51,4 +51,11 @@ Infrastructure:
 12. Monitoring kubernetes with prometheus
 13. Load balance on-premise services with AWS 
 14. Service deployed in AWS and using on-premise data sources, how to connect 
+15. Implement quota in gateway on basis of user and traffic/second
+16. If the size of resultset returned by the query is very huge, how to implement pagination or lazy loading using any cloud based database. 
+17. How to use Spring cloud features in Kubernetes
+18. How to use AWS cloudformation to automate CICD of Springboot service 
+19. Use ribbon loadbalancer in kubernetes with Spring boot and justify why we need that as kubernetes is already provoding loadbalancing.
+20. Implement CICD for a service running in private subnet in AWS, codebase from github,bitbucket.
+21. How to make handshaking in zuul for HTTPS only traffic
 
