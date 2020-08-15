@@ -57,5 +57,5 @@ Infrastructure:
 18. How to use AWS cloudformation to automate CICD of Springboot service 
 19. Use ribbon loadbalancer in kubernetes with Spring boot and justify why we need that as kubernetes is already provoding loadbalancing.
 20. Implement CICD for a service running in private subnet in AWS, codebase from github,bitbucket.
-21. How to make handshaking in zuul for HTTPS only traffic
+21. How to make handshaking in zuul for HTTPS only traffic https://medium.com/@iroshan.du/ssl-configure-in-zuul-in-spring-boot-micro-services-for-localhost-3b933504277f
 
