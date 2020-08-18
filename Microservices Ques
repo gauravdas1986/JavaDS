@@ -18,7 +18,7 @@ Milestones:
 17. Fault tolerance
 18. Exception Handling
 
-
+Spring boot:
 1. Profiling
 2. multiple datasources in a single microservice
 3. Transaction handling in where multiple microservices are called in a same transaction.
@@ -34,6 +34,8 @@ Milestones:
 13. Where Do We Use WebMVC Test Annotation?
 14. Host based routing VS Path based routing
 15. Mapstruct, return a merged JSON which is a combination of multiple pojos
+16. Difference between SpringbootApplication vs EnableAutoConfiguration : https://www.java67.com/2018/05/difference-between-springbootapplication-vs-EnableAutoConfiguration-annotations-Spring-Boot.html
+
 
 
 Infrastructure:
