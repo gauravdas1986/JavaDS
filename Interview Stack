@@ -240,6 +240,8 @@ You can have only a getter. Then the property is read only. This should actualy 
 
 105. Nested @Async and @Transactional in Spring JPA
 
+106. Difference between CountDownLatch and CyclicBarrier in Java
+
 
 Algorithm 
 
