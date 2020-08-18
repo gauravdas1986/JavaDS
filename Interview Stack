@@ -242,6 +242,15 @@ You can have only a getter. Then the property is read only. This should actualy 
 
 106. Difference between CountDownLatch and CyclicBarrier in Java
 
+107. Overriding of Thread class start() method ruins multi-threading concept.thread won’t be created
+	The purpose of start() is to create a separate call stack for the thread. A separate call stack is created by it, and then run() is called by JVM.
+
+108. Difference between wait() and join method in Java thread
+	Read more: https://www.java67.com/search/label/Java%20Multithreading%20Tutorial?updated-max=2019-05-17T23:50:00-07:00&max-results=6#ixzz6VT37tppR
+
+
+
+
 
 Algorithm 
 
