@@ -39,6 +39,10 @@ Spring boot:
 Microservices concepts
 1. How to manage zone wise timestamp displayed in UI and stored in DB
 2. How to implement retry mechanism of failed messages in event based transaction handling
+3. How to orchestrate a transaction which needs to call a third party endpoint.
+4. Encryption and encoding of configurations in config server and provide role based access to the applications in the cluster.
+5. Oauth2 integrated with OpenId and OKTA with SAML.
+6. Change configuration on runtime
 
 Infrastructure:
 1. AWS-Kubernetes with HAProxy https://techbeacon.com/devops/one-year-using-kubernetes-production-lessons-learned
