@@ -36,7 +36,9 @@ Spring boot:
 15. Mapstruct, return a merged JSON which is a combination of multiple pojos
 16. Difference between SpringbootApplication vs EnableAutoConfiguration : https://www.java67.com/2018/05/difference-between-springbootapplication-vs-EnableAutoConfiguration-annotations-Spring-Boot.html
 
-
+Microservices concepts
+1. How to manage zone wise timestamp displayed in UI and stored in DB
+2. How to implement retry mechanism of failed messages in event based transaction handling
 
 Infrastructure:
 1. AWS-Kubernetes with HAProxy https://techbeacon.com/devops/one-year-using-kubernetes-production-lessons-learned
