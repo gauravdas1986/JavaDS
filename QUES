@@ -35,6 +35,7 @@ Spring Boot / Micro services
 •	What are you using to deploy
 •	Which version of Spring Boot you are using (1.x or 2)
 •	What are the things spring boot annotation take care of 
+• Why we need config server over AWS paramter store
  
 Transactions & DB
 •	Spring Transactions usage
@@ -59,6 +60,7 @@ o	Named Query API
 •	What is volatile and use of it
 •	What is the difference bet volatile and transient
 •	What is searlization
+• Why we need nosql/mongoDb 
  
  
  
