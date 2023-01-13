@@ -67,3 +67,18 @@ Infrastructure:
 20. Implement CICD for a service running in private subnet in AWS, codebase from github,bitbucket.
 21. How to make handshaking in zuul for HTTPS only traffic https://medium.com/@iroshan.du/ssl-configure-in-zuul-in-spring-boot-micro-services-for-localhost-3b933504277f
 22. Can we replace RabbitMQ with SQS 
+
+
+Kafka:
+
+1. Explain how the data is kept persistent and tolerant to any hardware failures by copying the data in the clusters.
+2. What do you mean by zookeeper in Kafka and what are its uses?
+3. How can I scale Kafka consumers?
+4. How Topic replication is critical for Kafka deployments to make it durable and highly available When one broker fail?
+5. How Kafka ensures astomicity of message delivery
+6. Can multiple Kafka consumers read same message from the partition
+7. Explain the concept of Leader and Follower in Kafka 
+8. What happens If I have more number of consumers than the number of partitions?
+9. What is the significane of NACK, why we send NACK instead of no acknowledgement?
+10. How to avoid duplication in Kafka when consumer got disconnected?
+11. How to avoid duplicate message when 2 applications with different port listening on same kafka topic through 2 different ports?
